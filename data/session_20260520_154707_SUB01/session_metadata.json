@@ -1,16 +1,16 @@
 {
-    "session_id": "session_20260521_104027_SUB01",
+    "session_id": "session_20260520_154707_SUB01",
     "participant_id": "SUB01",
-    "timestamp": "2026-05-21T10:40:27.563306",
+    "timestamp": "2026-05-20T15:47:07.608121",
     "standard_px": 200,
     "trials_per_level": 12,
     "total_trials": 84,
     "completed_trials": 84,
     "aborted_early": false,
-    "overall_accuracy": 0.881,
+    "overall_accuracy": 0.7738,
     "mean_rt_sec": 0.629,
-    "pse": 0.996,
-    "jnd": 0.0267,
-    "r_squared": 0.9881,
+    "pse": 0.977,
+    "jnd": 0.0538,
+    "r_squared": 0.8359,
     "fit_success": true
 }

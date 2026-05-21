@@ -1,8 +1,8 @@
 # Psychophysics Session Analysis Report
 
-**Session ID:** `session_20260521_104027_SUB01`
+**Session ID:** `session_20260521_154708_SUB01`
 **Participant ID:** `SUB01`
-**Date/Time:** `2026-05-21T10:40:27.563306`
+**Date/Time:** `2026-05-21T15:47:08.045043`
 
 ---
 
@@ -12,11 +12,11 @@ This automated report presents the psychophysical assessment of visual length di
 
 | Metric | Measured Value | Ideal / Reference | Scientific Interpretation |
 | :--- | :---: | :---: | :--- |
-| **PSE** (Bias) | `0.9960` | `1.0000` | Point of Subjective Equality. Values < 1.0 indicate a left-stimulus bias. |
-| **JND** (Sensitivity) | `0.0267` | Lower is better | Just Noticeable Difference. Represents absolute sensory noise limit. |
-| **R²** (Goodness of Fit) | `0.9881` | `1.0000` | Explained variance by the Gaussian Cumulative Normal model. |
+| **PSE** (Bias) | `1.0082` | `1.0000` | Point of Subjective Equality. Values < 1.0 indicate a left-stimulus bias. |
+| **JND** (Sensitivity) | `0.0260` | Lower is better | Just Noticeable Difference. Represents absolute sensory noise limit. |
+| **R²** (Goodness of Fit) | `0.9183` | `1.0000` | Explained variance by the Gaussian Cumulative Normal model. |
 | **Accuracy** (Overall) | `88.10%` | — | Percent correct across all non-ambiguous ratios. |
-| **Mean RT** (Reaction Time) | `0.629 s` | — | Average latency to render spatial judgment. |
+| **Mean RT** (Reaction Time) | `0.591 s` | — | Average latency to render spatial judgment. |
 
 ---
 
@@ -32,11 +32,11 @@ The visualization below represents the fitted psychometric curve. Raw data point
 
 ## 3. Psychophysical Interpretations
 
-1. **Sensory Bias (PSE = 0.9960):**
+1. **Sensory Bias (PSE = 1.0082):**
    - The participant exhibits virtually zero spatial bias. Spatial perception is accurately calibrated with physical line length.
 
-2. **Visual Resolution Limit (JND = 0.0267):**
-   - A JND of `0.0267` implies that a length difference of **`2.67%`** is required for the visual system to distinguish the test line from the standard line with 75% accuracy. This indicates high spatial acuity.
+2. **Visual Resolution Limit (JND = 0.0260):**
+   - A JND of `0.0260` implies that a length difference of **`2.60%`** is required for the visual system to distinguish the test line from the standard line with 75% accuracy. This indicates high spatial acuity.
 
 3. **Speed-Accuracy Dynamics:**
-   - The average decision latency of `0.629 seconds` represents the time required to settle on a sensory decision. Portfolio analysis of reaction times can indicate whether cognitive control or fatigue influenced sensory thresholds.
+   - The average decision latency of `0.591 seconds` represents the time required to settle on a sensory decision. Analysis of reaction times can indicate whether cognitive control or fatigue influenced sensory thresholds.

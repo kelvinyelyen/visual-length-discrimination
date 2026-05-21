@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-THE HUBLINK
-Goal: Provide a premium, interactive terminal menu to run experiments,
+THE RUNNER
+Goal: Provide an interactive terminal menu to run experiments,
       analyze sessions, and track historical results.
 """
 import os
@@ -99,7 +99,7 @@ def handle_analyze_specific():
 
 def handle_history_dashboard():
     """
-    Parses and aggregates all session JSON metadata to output a professional
+    Parses and aggregates all session JSON metadata to output a structured
     performance tracking spreadsheet-style report in the console.
     """
     if not os.path.exists("data"):

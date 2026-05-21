@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 THE GENERATOR
-Goal: Generate high-fidelity mock session data to instantly demonstrate the 
-      academic psychometric analysis, binomial plotting, and historical dashboard 
+Goal: Generate mock session data to demonstrate the 
+      psychometric analysis, binomial plotting, and historical dashboard 
       features without requiring manual trial clicks.
 """
 import os
@@ -63,9 +63,9 @@ def simulate_responses(mu, sigma, trials_per_level=10):
             
     return data
 
-def generate_portfolio_demo():
+def generate_demo_data():
     print("=" * 60)
-    print("        PORTFOLIO DEMO DATA GENERATOR FOR VISUAL ACUITY       ")
+    print("             DEMO DATA GENERATOR FOR VISUAL ACUITY            ")
     print("=" * 60)
     
     # Session 1: High Noise / Early Session (e.g. yesterday)
@@ -133,4 +133,4 @@ def generate_portfolio_demo():
     print("=" * 60 + "\n")
 
 if __name__ == '__main__':
-    generate_portfolio_demo()
+    generate_demo_data()

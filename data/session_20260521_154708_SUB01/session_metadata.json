@@ -1,0 +1,16 @@
+{
+    "session_id": "session_20260521_154708_SUB01",
+    "participant_id": "SUB01",
+    "timestamp": "2026-05-21T15:47:08.045043",
+    "standard_px": 200,
+    "trials_per_level": 12,
+    "total_trials": 84,
+    "completed_trials": 84,
+    "aborted_early": false,
+    "overall_accuracy": 0.881,
+    "mean_rt_sec": 0.5907,
+    "pse": 1.0082,
+    "jnd": 0.026,
+    "r_squared": 0.9183,
+    "fit_success": true
+}

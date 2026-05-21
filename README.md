@@ -1,6 +1,6 @@
 # Visual Length Discrimination & Sensory Noise Modeling
 
-> An academic-grade Two-Alternative Forced Choice (2AFC) psychophysics platform designed to quantify visual sensory noise, spatial discrimination limits, and perceptual bias in the human visual cortex.
+> A Two-Alternative Forced Choice (2AFC) psychophysics platform designed to quantify visual sensory noise, spatial discrimination limits, and perceptual bias in the human visual cortex.
 
 ---
 
@@ -39,7 +39,7 @@ $$JND = \sigma \cdot \Phi^{-1}(0.75) \approx 0.6745 \cdot \sigma$$
 
 ## 3. Directory Structure & Architecture
 
-The codebase has been refactored into a highly modular, professional package structured as follows:
+The codebase is structured as a modular package as follows:
 
 ```
 visual-length-discrimination/
@@ -56,15 +56,15 @@ visual-length-discrimination/
 ├── analysis.py                           # Scientific analysis, CDF fitting, and error mapping
 ├── run.py                                # Main interactive terminal platform hub
 ├── requirements.txt                      # Package dependencies
-└── README.md                             # Academic project documentation (this file)
+└── README.md                             # Project documentation (this file)
 ```
 
 ---
 
 ## 4. Feature Highlights
 
-### Premium Automated Reporting
-For every session completed, the system automatically runs a curve-fitting pipeline to output a gorgeous scientific report inside the session folder, embedding a custom high-resolution plot and contextual scientific interpretations based on measured thresholds.
+### Automated Reporting
+For every session completed, the system automatically runs a curve-fitting pipeline to output a structured scientific report inside the session folder, embedding a custom high-resolution plot and contextual scientific interpretations based on measured thresholds.
 
 ### Binomial Confidence Interval Mapping
 Instead of raw points, the analysis pipeline computes the **Standard Error of Binomial Proportions** for each ratio's empirical data:

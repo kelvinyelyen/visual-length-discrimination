@@ -1,7 +1,7 @@
 """
 THE INSIGHT
 Goal: Analyze psychophysics data to extract the Point of Subjective Equality (PSE) 
-      and Just Noticeable Difference (JND) with publication-grade metrics and visuals.
+      and Just Noticeable Difference (JND) with standard metrics and visualizations.
 """
 import os
 import sys
@@ -170,7 +170,7 @@ def run_analysis(session_dir=None):
     return pse, jnd
 
 def generate_report(session_dir, metadata, pse, jnd, r_squared, fit_success):
-    """Generates a structured, publication-grade markdown summary report of the session."""
+    """Generates a structured markdown summary report of the session."""
     report_content = f"""# Psychophysics Session Analysis Report
 
 **Session ID:** `{metadata.get('session_id', 'N/A')}`
@@ -212,7 +212,7 @@ The visualization below represents the fitted psychometric curve. Raw data point
    - A JND of `{jnd:.4f}` implies that a length difference of **`{jnd * 100:.2f}%`** is required for the visual system to distinguish the test line from the standard line with 75% accuracy. This indicates {"high spatial acuity" if jnd < 0.05 else "standard spatial acuity" if jnd < 0.09 else "high internal neural noise / low spatial sensitivity during this session"}.
 
 3. **Speed-Accuracy Dynamics:**
-   - The average decision latency of `{metadata.get('mean_rt_sec', 0.0):.3f} seconds` represents the time required to settle on a sensory decision. Portfolio analysis of reaction times can indicate whether cognitive control or fatigue influenced sensory thresholds.
+   - The average decision latency of `{metadata.get('mean_rt_sec', 0.0):.3f} seconds` represents the time required to settle on a sensory decision. Analysis of reaction times can indicate whether cognitive control or fatigue influenced sensory thresholds.
 """
     report_path = os.path.join(session_dir, "report.md")
     with open(report_path, 'w') as f:
